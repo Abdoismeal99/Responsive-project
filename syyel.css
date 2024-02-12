@@ -1,0 +1,33 @@
+body{
+    height: 100vh;
+    background-color: #356;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+form{
+    background-color: #367;
+    padding: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    width: 80%;
+    gap: 5px;
+}
+form input{
+    background-color: rgba(51, 136, 119, 0.123);
+    border: none;
+padding: 10px 5px;
+outline: none;
+color: whitesmoke;
+flex-basis: 200px;
+flex-grow: 1;
+}
+form button{
+    background-color: rgba(69, 51, 170, 0.336);
+    color: white;
+    border: none;
+    cursor: pointer;
+    padding:  5px 10px;
+    flex-grow: 1;
+    flex-basis: 30px;
+}
